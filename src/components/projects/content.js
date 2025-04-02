@@ -75,7 +75,8 @@ const content = [
             mobileSize: prj2_imgPhone
         },
         imgAlt: 'Screenshot of the BudgetBuddy website',
-        liveLink: 'https://gamar-suleymanova-code.github.io/BudgetBuddy/',
+        // liveLink: 'https://gamar-suleymanova-code.github.io/BudgetBuddy/',
+        liveLink: 'https://developmentofstartup.github.io/BudgetBuddy/',
         codesLink: 'https://github.com/gamar-suleymanova-code/BudgetBuddy/',
         designLink: 'https://www.figma.com/design/Rkw9RettRwjPn8qjHCQmWT/BB-UI?t=7ZTlpslCrNuL1xrG-0',
         info: {
