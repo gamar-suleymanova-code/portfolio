@@ -1,7 +1,10 @@
 import { motion } from 'framer-motion';
 import { useState, useEffect, useRef } from 'react';
 
-export default function SkillList({ skillList, duration, initialID }) {
+export default function SkillList({
+    skillList, duration, initialID,
+    // startDate, endDate, jobTitle, description, 
+    }) {
     const ulRef = useRef();
     const [inView, setInView] = useState(false);
     const [currentAnimationIndex, setCurrentAnimationIndex] = useState(0);
@@ -54,7 +57,7 @@ export default function SkillList({ skillList, duration, initialID }) {
     );
 }
 
-function SkillItem({ skill, duration, shouldAnimate }) {
+function SkillItem({ skill, duration, shouldAnimate, exp }) {
     const ref = useRef();
 
     return (
@@ -65,7 +68,16 @@ function SkillItem({ skill, duration, shouldAnimate }) {
             animate={shouldAnimate ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: duration }}>
             <li>
-                {skill}
+                
+                {exp ? (
+                <div className="d-flex flex-column">
+                    <span className="colorComplim">{exp.startDate} - {exp.endDate}</span>
+                    <span className="f_h6 color_primary">{exp.jobTitle}</span>
+                    <span className="color_primary f_inherit">{exp.description}</span>
+                </div>
+                ) : (
+                <>{skill}</>
+                )}
                 <motion.div
                     className="child_motion"
                     initial={{ opacity: 0, y: -10 }}

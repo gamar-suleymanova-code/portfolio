@@ -102,36 +102,36 @@ const content = [
         },
     },
 
-    {
-        imgSrc: {
-            laptopSize: prj3_imgMac,
-            tabletSize: prj3_imgMac,
-            mobileSize: prj3_imgMac
-        },
-        imgAlt: 'Screenshot of the Tapshir website',
-        designLink: 'https://www.figma.com/design/0TiCAewzzX4bsafv7ozk3s/Freelancer?node-id=0-1&node-type=canvas&t=YQG0UKy5gtoNbYzn-0',
-        info: {
-            header: 'Tapshir',
-            descriptions: "Tapshir is a startup where freelancers can find and apply for temporary jobs from clients or companies in Azerbaijan. I worked only mainly on the frontend development of Profile Setting page which you can access from the menu. The codes weren't going to be provided, but when live link will be ready I will share it right away.",
-            tools: [
-                {
-                    toolName: 'React',
-                    toolIcon: reactIcon,
-                    iconColor: '#61DAFB'
-                },
-                {
-                    toolName: 'Material UI',
-                    toolIcon: materialUIIcon,
-                    iconColor: '#a020f0'
-                },
-                {
-                    toolName: 'Tailwind CSS',
-                    toolIcon: tailwindIcon,
-                    iconColor: '#764ABC'
-                }
-            ]
-        },
-    },
+    // {
+    //     imgSrc: {
+    //         laptopSize: prj3_imgMac,
+    //         tabletSize: prj3_imgMac,
+    //         mobileSize: prj3_imgMac
+    //     },
+    //     imgAlt: 'Screenshot of the Tapshir website',
+    //     designLink: 'https://www.figma.com/design/0TiCAewzzX4bsafv7ozk3s/Freelancer?node-id=0-1&node-type=canvas&t=YQG0UKy5gtoNbYzn-0',
+    //     info: {
+    //         header: 'Tapshir',
+    //         descriptions: "Tapshir is a startup where freelancers can find and apply for temporary jobs from clients or companies in Azerbaijan. I worked only mainly on the frontend development of Profile Setting page which you can access from the menu. The codes weren't going to be provided, but when live link will be ready I will share it right away.",
+    //         tools: [
+    //             {
+    //                 toolName: 'React',
+    //                 toolIcon: reactIcon,
+    //                 iconColor: '#61DAFB'
+    //             },
+    //             {
+    //                 toolName: 'Material UI',
+    //                 toolIcon: materialUIIcon,
+    //                 iconColor: '#a020f0'
+    //             },
+    //             {
+    //                 toolName: 'Tailwind CSS',
+    //                 toolIcon: tailwindIcon,
+    //                 iconColor: '#764ABC'
+    //             }
+    //         ]
+    //     },
+    // },
 
     {
         imgSrc: {
@@ -141,6 +141,7 @@ const content = [
         },
         imgAlt: 'Screenshot of the SualAktiv website',
         designLink: 'https://www.figma.com/design/n46R3oUbB7lHW6sYXgwVBl/SualAktiv?node-id=0-1&p=f&t=lJV2vH1bb9UFTdkD-0',
+        codesLink: 'https://github.com/gamar-suleymanova-code/quiz-aktiv',
         info: {
             header: 'SualAktiv',
             descriptions: "A Simple Quiz Generator App which is easy-to-use that allows users to create, customize, and take quizzes.",

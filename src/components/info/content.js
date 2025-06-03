@@ -1,7 +1,7 @@
 const hardSkills = [
     'HTML, CSS , JS (ES6+), TypeScript',
     'Web accessibility and SEO',
-    'React, Redux, Chakra UI, Formik, Yup, Material UI, Tailwind',
+    'React, Next, Redux, Chakra UI, Formik, Yup, Material UI, Tailwind',
     'Unit Testing: Jest, React Testing Library',
     'Adding authomatic authentification (via Google and Linkedin)',
     'Building CI/CD pipelines',
@@ -36,14 +36,20 @@ const experiences = [
     {
         startDate: '2024 October 1st',
         endDate: '2024 October 30th',
-        jobTitle: 'Front End Developer • Tapshir',
-        description: 'It is a startup where freelancers can find and apply for temporary jobs from clients or companies in Azerbaijan. We developed the IU of the project using technologies like React (with TypeScript), Material UI, Tailwind CSS and etc.'
+        jobTitle: 'Front End Developer • Tapshir Startup',
+        description: 'Developed a UIs of a startup where freelancers can find and apply for temporary jobs from clients or companies in Azerbaijan. We developed the IU of the project using technologies like React (with TypeScript), Material UI, Tailwind CSS and etc.'
     },
     {
         startDate: '2025 January',
         endDate: '2025 April',
         jobTitle: 'Front End Developer • MIB  Tech',
-        description: 'During my time at the company, I contributed to the development of a webpage for freelancers. The platform allows users to find job offers and connect with the most suitable freelancers for their needs. We utilized technologies such as React, Ant Design, Tailwind, Bootstrap, and more.'
+        description: 'Developed a UIs of platform for freelancers again. The platform allows users to find job offers and connect with the most suitable freelancers for their needs. We utilized technologies such as React, Ant Design, Tailwind, Bootstrap, and more.'
+    },
+    {
+        startDate: '2025 April',
+        endDate: '2025 May',
+        jobTitle: 'Front End Developer • Studio & BookTalk',
+        description: 'Deveoped UIs for a photo studio and social book platform. Tech: Next.js and Tailwind'
     }
 ];
 export { hardSkills, softSkills, education, experiences }
